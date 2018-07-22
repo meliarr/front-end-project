@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--
+
+        Lifted Logic Frontend Test
+        Author: Melissa Arroyo
+        Date:  July 18, 2018
+
+        Filename: index.html
+        -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Synder Recordings</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <header>
+            <a href="#"><img id="logo-nav" src="img/logo/SRrecordings.png" alt="logo"></a>
+            <nav>
+                <ul class="nav-items">
+                    <li><img src="img/Icons/Home.png" alt=""><a href="#">Home</a></li>
+                    <li><img src="img/Icons/Records.png" alt=""><a href="#">Records</a></li>
+                    <li><img src="img/Icons/Music.png" alt=""><a href="#">Music</a></li>
+                    <li><img src="img/Icons/Artists.png" alt=""><a href="#">Artists</a></li>
+                    <li><img src="img/Icons/Concerts.png" alt=""><a href="#">Concerts</a></li>
+                    <li class="button"><a href="#">Sign Up</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="hero">
+            <div id="hero-content">
+                <h1>A.M. Paradox</h1>
+                <p>Christopher Brent Wood, better known by hisstage name Brent Faiyaz, is an American singer and record producer. He released his debut project, an extended play entitled A.M. Paradox, in 2016.</p>
+                <a href="#"><img src="img/Icons/Play_button.png" alt="play button" id="play-button"></a>
+                <a href="#" id="hero-cta">Watch Video</a>
+            </div>
+        </section>
+        <section id="about">          
+            <div id="about-container">
+                <img src="img/Images/image2.png" alt="artist-bio-img">
+                <div id="about-content">
+                    <h1>Brent Faiyaz, So Far Gone</h1>
+                    <p>Faiyaz began uploading his music onto SoundCloud in 2014 and moved from his hometown Columbia, Maryland to Charlotte, North Carolina before ultimately settling in Los Angeles, California to further his music career. On January 19, 2015, he released "Invite Me", the lead signle from his upcoming debut EP. On September 19, 2016, his 21st birthday, the EP entitled A.M. Paradox was released and received with positive reviews from music critics. On January 26, 2017, Sonder released their debut EP Into.</p>
+                    <a href="#" class="button">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <section id="releases-header">
+                <h1>New Releases</h1>
+                <p>New albums every singles month, check out the newest &amp; best from Snyder Recording artist, now available on Apple Music &amp; Spotify.</p>
+        </section>
+        <section id="releases-content">
+            <ul id="albums-list">
+                <li class="card card1">
+                    <div class="card-album-img">
+                        <img src="img/Images/image4.png" alt="album-cover">
+                    </div>
+                    <div class="card-album-text">
+                        <h2>Trapsoul</h2>
+                        <h3>Bryson Tiller</h3>
+                        <p>Bryson Djuan Tiller, in an American singer, songwriter and rapper. Born in Louisville, Kentucky, he started his career in 2011, releasing the debut mixtape titled Killer Instinct Vol.1.</p>
+                    </div>   
+                </li>
+                <li class="card card2">
+                    <div class="card-album-img">
+                        <img src="img/Images/image4.png" alt="album-cover">
+                    </div>
+                    <div class="card-album-text">
+                        <h2>Trapsoul</h2>
+                        <h3>Bryson Tiller</h3>
+                        <p>Bryson Djuan Tiller, in an American singer, songwriter and rapper. Born in Louisville, Kentucky, he started his career in 2011, releasing the debut mixtape titled Killer Instinct Vol.1.</p>
+                    </div>   
+                </li>
+                <li class="card card3">
+                    <div class="card-album-img">
+                        <img src="img/Images/image4.png" alt="album-cover">
+                    </div>
+                    <div class="card-album-text">
+                        <h2>Trapsoul</h2>
+                        <h3>Bryson Tiller</h3>
+                        <p>Bryson Djuan Tiller, in an American singer, songwriter and rapper. Born in Louisville, Kentucky, he started his career in 2011, releasing the debut mixtape titled Killer Instinct Vol.1.</p>
+                    </div>   
+                </li>
+            </ul>
+            <div id="carousel-buttons">
+                <a href="#" id="lbutton"><img src="img/Icons/left_controller.png" alt="left button"></a>
+                <a href="#" id="rbutton"><img src="img/Icons/right_controller.png" alt="right button"></a>
+            </div>
+        </section>
+        <section id="map">
+                <!--<iframe frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2Z3302brwIcRfnp2abocpac&key=AIzaSyCd59Com6Nd3_q1AOz_NiK5r7HM3BbYcFQ" allowfullscreen></iframe>-->
+        </section>
+        <section id="contact">
+            <div class="content" id="form-wrapper">
+                <div id="contact-form-header">
+                    <h1>Get in Touch</h1>
+                    <p>New albums every single month, check out the newest &amp; best from Snyder Recording artist, now available on Apple Music &amp; Spotify.</p>
+                </div>
+                <form action="" method="post">
+                    <input id="myFName" type="text" placeholder="First Name" required>
+                    <input id="myLName" type="text" placeholder="Last Name" required>
+                    <input id="myEmail" type="email" placeholder="Email Address" size="35" required>
+                    <select name="contactReasons">
+                        <option value="0">Reason for Contacting</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                    <textarea name="myComments" class="full-width" required>Write a brief message...</textarea>
+                    <input type="submit" value="Send Message" class="button">                         
+                </form>
+            </div><!--end of form wrapper-->
+            <img src="img/Images/image3.png" alt="contact photo">
+        </section>
+        <script src="script.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCd59Com6Nd3_q1AOz_NiK5r7HM3BbYcFQ&callback=initMap"></script>
+    </body>
+    <footer>
+        <section id="footer-top">
+            <ul class="footer-column">
+                    <li><a href="#"><img src="img/logo/SRrecordings_white.png" alt="logo" id="white-logo"></a></li>
+                    <li>8521 W Fairfax Rd</li>
+                    <li>Los Angeles, CA</li>
+                    <li>90210</li>
+                    <li>909.505.4302</li>
+                </ul>
+                <ul class="footer-column">
+                    <li class="footer-list-header"><a href=""><h4>Explore</h4></a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Our Story</a></li>
+                    <li><a href="">Team</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">FAQ</a></li>
+                </ul>
+                <ul class="footer-column">
+                    <li class="footer-list-header"><a href=""><h4>Music</h4></a></li>
+                    <li><a href="">Missing Out</a></li>
+                    <li><a href="">Trapsoul</a></li>
+                    <li><a href="">Sonder Sons</a></li>
+                    <li><a href="">Paradise Today</a></li>
+                    <li><a href="">Needed</a></li>
+                </ul>
+                <ul class="footer-column">
+                    <li class="footer-list-header"><a href=""><h4>Artists</h4></a></li>
+                    <li><a href="">Brent Faiyaz</a></li>
+                    <li><a href="">Drake</a></li>
+                    <li><a href="">Bryson Tiller</a></li>
+                    <li><a href="">Young Ford</a></li>
+                    <li><a href="">Rory Fresco</a></li>
+                </ul>
+                <ul class="footer-column">
+                    <li class="footer-list-header"><h4>Records</h4></li>
+                    <li><a href="">What a Time</a></li>
+                    <li><a href="">Coming Home</a></li>
+                    <li><a href="">Always First</a></li>
+                    <li><a href="">So Far Gone</a></li>
+                    <li><a href="">Big Bluez</a></li>
+                </ul>
+                <ul class="footer-column">
+                    <li class="footer-list-header"><h4>Concerts</h4></li>
+                    <li><a href="">Midland Live</a></li>
+                    <li><a href="">Granada 2018</a></li>
+                    <li><a href="">Tiller Unplugged</a></li>
+                    <li><a href="">Love Live</a></li>
+                    <li><a href="">XX Live Mix</a></li>
+                </ul>
+        </section>
+        <section id="footer-bottom">
+            <div id="policies">
+                <a href="">Privacy Policy</a>
+                <a href="">Terms &amp; Conditions</a>
+            </div>
+            <div id="social-icons">
+                <ul>
+                    <li><a href="#"><img src="img/Icons/Youtube.png" alt="icon-youtube"></a></li>
+                    <li><a href="#"><img src="img/Icons/Twitter.png" alt="icon-twitter"></a></li>
+                    <li><a href="#"><img src="img/Icons/Instagram.png" alt="icon-instagram"></a></li>
+                    <li><a href="#"><img src="img/Icons/Snapchaat.png" alt="icon-snapchat"></a></li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+</html>
