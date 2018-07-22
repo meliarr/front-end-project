@@ -2,7 +2,7 @@
 
 Lifted Logic Frontend Test
 Author: Melissa Arroyo
-Updated:  July 20, 2018
+Updated:  July 22, 2018
 
 Filename: main.css
 
@@ -52,10 +52,10 @@ section#hero, footer a {
 /*Button Styles*/
 
 .button {
-    color: #68C242 !important;
+    background-color: #D9F0D0;
+    color: #68C242;
     font-weight: bold;
     font-size: 14px;
-    background-color: #D9F0D0;
     padding: 1.25em 3em;
     margin-right: 3em;
     display: inline-block;
@@ -64,7 +64,7 @@ section#hero, footer a {
 }
 
 .button:hover {
-    color: #ffffff !important;
+    color: #ffffff;
     background-color: #68C242; 
     -o-transition: .5s;
     -ms-transition: .5s;
@@ -92,11 +92,14 @@ header {
 
 nav {
     justify-self: end;
-    color: #001D5D;
 }
 
 nav a {
     text-decoration: none;
+}
+
+nav a:link {
+    color: #001D5D;
 }
 
 nav a:visited {
