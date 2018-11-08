@@ -1,14 +1,3 @@
-/*
-
-Lifted Logic Frontend Test
-Author: Melissa Arroyo
-Updated:  July 20, 2018
-
-Filename: script.js
-
-*/
-
-
  function initMap(){
      // Map options
      var options = {
